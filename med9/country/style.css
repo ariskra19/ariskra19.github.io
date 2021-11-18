@@ -1,0 +1,34 @@
+body{
+     background-color: black;
+
+}
+.yellow{
+	background-color: yellow;
+	color: yellow;
+	padding:20px;
+}
+.blue{
+	background-color: blue;
+	color: blue;
+	padding: 20px;
+
+}
+.red{
+	background-color: red;
+	color: red;
+	padding: 20px;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+p{
+	font-size: 30px;
+	color: limegreen;
+	text-align: center;
+}
+img{
+	float: right;
+	width: 300px;
+
+}
