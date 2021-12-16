@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-image: url("backgorund.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.card{
+	border: 30px double rgb(176, 154, 44);
+	padding: 50px;
+	background: linear-gradient(90deg, rgba(0,0,0,0.865983893557423) 30%, rgba(117,98,35,0.8799894957983193) 50%, rgba(0,0,0,0.8883928571428571) 70%);
+	font-family: Caveat;
+	transition: all 4s;
+
+	}
+	.card:hover {
+
+		transform: scale(1.5) rotate(360deg);
+		transition: all 2s; 
+
+	}
+ 
