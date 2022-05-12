@@ -1,0 +1,120 @@
+body {
+margin: 0;
+}
+
+
+
+nav {
+display: flex;
+align-items: center;
+padding: 30px;
+justify-content: space-between;
+background-color: rgb(0, 0, 0,0.1);
+
+
+}
+
+
+
+
+nav ul {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type:none;
+}
+
+
+
+nav ul li a {
+margin: 20px;
+padding: 20px;
+text-decoration:none;
+background-color: whitesmoke;
+border-radius: 15px;
+color: black;
+
+}
+
+img{
+
+width: 350px;
+margin: 20px;
+
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+
+.summer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+
+}
+.brick{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 450px;
+
+}
+.reno{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 880px;
+}
+
+.barn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 1310px;
+}
+.summer1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 20px;
+}
+.brick1{
+     background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 450px
+}
+.reno1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 880px;
+}
+.barn1{
+     background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 1310px;
+}
