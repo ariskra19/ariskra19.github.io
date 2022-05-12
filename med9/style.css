@@ -1,45 +1,120 @@
-div{
-    height: 400px;
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-p{
-
-   font-size: 25px; 
-   padding: 20px;
-   background-color: red;
-   margin: 10px;
+body {
+margin: 0;
 }
 
-.tidi{
-    background-color: lightgreen;
-    margin: 10px;
-    border-radius: 20px;
-    border: solid black 5px;
-    justify-content: center;
-    align-items: center;
-}
-h1{
-    font-size: 27px;
-    margin: 25px;
-    text-align: center;
+
+
+nav {
+display: flex;
+align-items: center;
+padding: 30px;
+justify-content: space-between;
+background-color: rgb(0, 0, 0,0.1);
 
 
 }
-.tidi1{
-    background-color: lightgreen;
-    border: 20px;
-    border-radius: 50px;
-    justify-content: space-around;
-    align-items: flex-end;
+
+
+
+
+nav ul {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style-type:none;
+}
+
+
+
+nav ul li a {
+margin: 20px;
+padding: 20px;
+text-decoration:none;
+background-color: whitesmoke;
+border-radius: 15px;
+color: black;
+
 }
 
 img{
 
-    border: 10px;
-    height: 300px;
-    width: 300px;
+width: 350px;
+margin: 20px;
 
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+
+.summer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+
+}
+.brick{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 450px;
+
+}
+.reno{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 880px;
+}
+
+.barn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+    left: 1310px;
+}
+.summer1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 20px;
+}
+.brick1{
+     background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 450px
+}
+.reno1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 880px;
+}
+.barn1{
+     background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 404px;
+    left: 1310px;
 }
